@@ -1,9 +1,13 @@
 import java.util.Hashtable;
+import java.util.Scanner;
 
 public class App {
 
     public static void main(String[] args) throws Exception {
         Hashtable<String, String> myLibrary = new Hashtable<>();
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Welcome to myLibrary!");
 
         myLibrary.put("004 P276i2004", "Introduction to computing systems");
         myLibrary.put("005.8 Y841h", "The hacker's handbook");
