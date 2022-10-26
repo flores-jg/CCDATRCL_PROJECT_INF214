@@ -1,8 +1,5 @@
 import java.util.Hashtable;
 
-import javax.management.openmbean.SimpleType;
-import javax.xml.transform.Source;
-
 public class App {
 
     public static void main(String[] args) throws Exception {
@@ -19,8 +16,6 @@ public class App {
         myLibrary.put("620 An784a", "Advanced engineering and technology");
         myLibrary.put("005 H537", "High integrity software");
         myLibrary.put("005 P362s", "Software reliability methods");
-
-
 
         System.out.println("myLibrary's size: " + myLibrary.size());
         System.out.println("Retrieving book: " + myLibrary.get("005.8 Y841h"));
